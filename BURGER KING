@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Burger King</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+        <IMG SRC = "data:image/png;base64,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" ALT = "BURGER KING" WIDTH = "50" HEIGHT = "20" CLASS = "logo-img">
+          <div class=" logo-img"></div>
+      <div class="logo">BURGER KING</div>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Deals</a>
+        <a href="#">Locations</a>
+        <a href="#">Contact</a>
+        <button class="order-btn">Order Now</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>EXPLORE THE BK WALL</h1>
+      <p>Flame-grilled perfection since 1954</p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Order Now</button>
+        <button class="btn-secondary">Explore Menu</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Section -->
+  <section class="featured">
+    <h2>Featured Combos</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="burger 12.png" alt="Burger Combo">
+        <h3>Whopper Meal</h3>
+        <p>$9.99</p>
+      </div>
+      <div class="card">
+        <img src="https://bkmenu.co.uk/wp-content/uploads/2024/01/doritos-king-box-double.png" alt="Burger Combo">
+        <h3>King Box</h3>
+        <p>$12.99</p>
+      </div>
+      <div class="card">
+        <img src="burger 31.png" alt="Burger Combo">
+        <h3>Fries & Shake</h3>
+        <p>$5.99</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Burger King. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Burger King</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+        <IMG SRC = "data:image/png;base64,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" ALT = "BURGER KING" WIDTH = "50" HEIGHT = "20" CLASS = "logo-img">
+          <div class=" logo-img"></div>
+      <div class="logo">BURGER KING</div>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Deals</a>
+        <a href="#">Locations</a>
+        <a href="#">Contact</a>
+        <button class="order-btn">Order Now</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>EXPLORE THE BK WALL</h1>
+      <p>Flame-grilled perfection since 1954</p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Order Now</button>
+        <button class="btn-secondary">Explore Menu</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Section -->
+  <section class="featured">
+    <h2>Featured Combos</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="burger 12.png" alt="Burger Combo">
+        <h3>Whopper Meal</h3>
+        <p>$9.99</p>
+      </div>
+      <div class="card">
+        <img src="https://bkmenu.co.uk/wp-content/uploads/2024/01/doritos-king-box-double.png" alt="Burger Combo">
+        <h3>King Box</h3>
+        <p>$12.99</p>
+      </div>
+      <div class="card">
+        <img src="burger 31.png" alt="Burger Combo">
+        <h3>Fries & Shake</h3>
+        <p>$5.99</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Burger King. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
