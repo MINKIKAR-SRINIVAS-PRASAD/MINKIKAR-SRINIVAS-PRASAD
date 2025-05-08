@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MINKIKAR-SRINIVAS-PRASAD
 - 👀 I’m interested in ... video games, gym
-- 🌱 I’m currently learning ... gift hub
+- 🌱 I’m currently learning ... git hub
 - 💞️ I’m looking to collaborate on ... free fire India
 - 📫 How to reach me ... instagram id : m.srinivas_prasad
 - 😄 Pronouns: ...
