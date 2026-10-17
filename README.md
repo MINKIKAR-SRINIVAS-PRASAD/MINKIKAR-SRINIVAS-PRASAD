@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently pursing B.tech in IIT Bhubaneshwar<br>👯 I’m looking to collaborate on my dream company Alphabet<br>🤝 I’m looking for help with Google executives<br>🌱 I’m currently learning Haskell<br>
+🔭 I’m currently pursing B.tech in IIT Bhubaneshwar<br>👯 I’m looking to collaborate on my dream company Alphabet<br>🤝 I’m looking for help with Google executives<br>
 
 
 ## 🌐 Socials:
